@@ -1,0 +1,159 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+}
+/*Mise en forme image de fond*/
+.photo{
+	background-image: url('../HTML PROJ/imagea.JPG');
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+}
+/*Barre de navigation*/
+.labarre{
+	background-color: rgba(66, 77, 83, .9);
+}
+/*Mise en forme du menu*/
+.labarre nav{
+	text-align: right;
+	margin-right: 300px;
+	margin-top: -20px;
+	padding-bottom: 40px;
+	font-size: 12px;
+	opacity: .8;
+}
+/*Disposition du menu nav*/
+.labarre nav ul li{
+	list-style: none;
+	display: inline-block;
+}
+/*Texte des onglets du menu */
+.labarre nav ul li a{
+	color: white;
+	text-decoration: none;
+	padding-right: 30px;
+}
+/*Effet lorsqu'on survole le menu*/
+.labarre nav ul li a:hover{
+	border: 1px solid #00b1f0;
+	color: #00b1f0;
+	padding: 3px 3px;
+	transition: all .3s;
+}
+/* Mise en forme du logo*/
+h2{
+	font-size: 24px;
+	color: white;
+	margin-left: 300px;
+	padding-top: 15px;
+}
+span{
+	color: #00b1f0;
+}
+/* Mise en forme dans la bande en bleu*/
+.enbleu{
+	background-color: #4dcaff;
+	height: 380px;
+}
+/* Positionnement du texte */
+.inblue{
+	margin-left: 300px;
+	margin-right: 200px;
+}
+/* Mise en forme SERVICES et en-dessous*/
+.inblue h6{
+	font-size: 24px;
+	color: white;
+	font-family: 'Julius Sans One';
+	opacity: .8;
+	padding-top: 60px;
+}
+.inblue nav li{
+	color: white;
+	font-size: 18px;
+	display: inline-block;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+/* Les icones d'illustrations*/
+.deco{
+	width: 40px;
+	height: 40px;
+	margin-top: 30px;
+}
+/* Libelles des sous SERVICES*/
+.libelle{
+	width: 250px;
+	font-size: 7px;
+	margin-top: 20px;
+}
+/*Le slogan du type  */
+.leslogan{
+	font-family: Arial;
+	margin-top: 200px;
+	font-size: 24px;
+	color: white;
+}
+.leslogan .p1{
+	width: 450px;
+	margin: auto;
+	padding: 10px 10px;
+	background-color: rgba(66, 77, 83, .8);
+}
+.leslogan .p2{
+	width: 700px;
+	margin: auto;
+	margin-top: 10px;
+	padding: 10px 10px;
+	background-color: rgba(66, 77, 83, .8);
+}
+/*Mise en forme section 3*/
+.limg{
+	background-image: url('../HTML PROJ/imagec.JPG');
+	background-size: cover;
+	background-position: center;
+	color: rgba(255, 255, 255, .8);
+	font-size: 8px;
+	height: 550px;
+}
+.leform{
+	margin-left: 300px;
+	padding-top: 50px;
+}
+.ctc{
+	font-size: 16px;
+	color: rgba(255, 255, 255, .6);
+}
+.fn {
+	width: 360px;
+	height: 40px;
+	background: transparent;
+	border: 2px solid rgba(255, 255, 255, .6);
+}
+.mail {
+	width: 360px;
+	height: 40px;
+	background: transparent;
+	border: 2px solid rgba(255, 255, 255, .6);
+}
+.limg .esp{
+	margin-top: 30px;
+}
+/*Champ Message */
+.msg{
+	width: 1000px;
+	height: 200px;
+	background: transparent;
+	border: 2px solid rgba(255, 255, 255, .6);
+}
+/*Bouton validation*/
+.btn{
+	color: white;
+	width: 250px;
+	height: 30px;
+	font-size: 8px;
+	background: #4dcaff;
+	margin-top: 35px;
+	border: 1px solid rgba(66, 77, 83, .6);
+}

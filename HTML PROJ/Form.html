@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+      	<meta charset="ISO 8859-1">
+      	<link rel="stylesheet" type="text/css" href="form.css">
+		<title> Formulaire </title>
+	</head>	  
+	<body>
+		<center>
+		<fieldset>
+		 <form>
+		    <tr>
+		     <h1>Enregistrement </h1>
+		    </tr>
+			<hr><br>
+		   <table>
+				<tr>
+					<td>Nom :</td><td><input id="f_nom" name="f_nom" type="text" required><br><br></td>
+				</tr>
+				<tr>
+					<td>Prénom :</td><td><input id="f_prenom" name="f_prenom" type="text" required><br><br></td>
+				</tr>
+				<tr>
+					<td>Date de naissance :</td><td><input id = "D_Naissance" name = "f_dnaissance" type="Date" required><br><br></td>
+				</tr>
+				<tr>
+					<td>Téléphone :</td>
+					<td><input id="f_Tel" name="f_Tel" type="number" placeholder="(ex)+221771234567" maxlength="13" required><br><br></td>
+				</tr>
+				<tr>
+					<td>Adresse mail :</td>
+					<td><input id="email" name="f_email" type="email"><br><br></td>
+				</tr>
+				<tr>
+				<td>Message :</td><td><textarea id="msg" name="f_msg" rows="6" cols="60" placeholder=" Informations supplémentaires qui pourraient être utiles ..."></textarea><br></td>
+				<tr>
+				<td><input id="submit" type="submit" value="Envoyer"></button>
+				</td></tr>
+				</tr>
+		  </table>
+		</form>
+	</fieldset>
+	</center>
+	</body>
+</html>
